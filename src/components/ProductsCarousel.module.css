@@ -1,0 +1,27 @@
+.Slider_container {
+  width: 100vw;
+  height: 400px;
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+/* #Slider {
+  display: grid;
+  gap: 20px;
+} */
+
+/* #Slider:nth-child(odd) {
+  width: 20px;
+  height: 200px;
+  margin-inline: 20px;
+  /* background-color: red; */
+/* }  */
+
+.products_div {
+  width: 20px;
+  height: 400px;
+  margin: 20px;
+  background-color: red;
+  border: 1px solid black;
+}

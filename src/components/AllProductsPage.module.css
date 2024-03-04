@@ -1,0 +1,110 @@
+.fixWidth {
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
+
+#Main_Container {
+  margin-block: 4rem;
+  display: flex;
+}
+
+/* ---------Aside --------------- */
+#aside {
+  width: 20vw;
+}
+
+#aside_heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2;
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 900px) {
+  #aside {
+    display: none;
+  }
+}
+
+.accordion_headers {
+  line-height: 2;
+  border-bottom: 1px solid gray;
+}
+
+.selected_box {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border: 1px solid black;
+}
+.Unselected_box {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+#CheckBox_container {
+  height: 200px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap;
+}
+
+#CheckBox_container::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+  /* height: max-content; */
+}
+#CheckBox_container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+#CheckBox_container::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+#CheckBox_container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change the color of the scrollbar thumb on hover */
+}
+
+#Checkbox {
+  margin-block: 0.5rem;
+}
+
+/* -------Main Section----------- */
+
+#Main_heading {
+  font-size: 3rem;
+  margin-left: 0.8rem;
+  font-weight: 600;
+}
+
+.Main_text {
+  margin-left: 0.8rem;
+  margin-block: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.text_withLink {
+  font-weight: bold;
+}
+
+.text_withLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

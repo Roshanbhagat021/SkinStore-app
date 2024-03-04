@@ -1,0 +1,129 @@
+#Section1_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 95vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+#text {
+  margin-block: 1rem;
+}
+
+#signUp_btn {
+  width: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin-block: 1rem;
+}
+
+#signUp_btn:hover {
+  background-color: #28bdb7;
+  color: black;
+}
+
+#Social_mediaLinks {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#Social_mediaLinks a img {
+  width: 45px;
+  height: 45px;
+  opacity: 1;
+}
+#Social_mediaLinks a img:hover {
+  opacity: 0.8;
+}
+
+/* ---------Section2_container--------------- */
+
+#Section2_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 95vw;
+  max-width: 1400px;
+  margin: 20px auto;
+  gap: 5rem;
+}
+
+#Left_section {
+  border-top: 1px solid black;
+}
+
+.footer_list {
+  text-align: left;
+  display: flex;
+  width: 50%;
+  padding: 7px 2px;
+  font-size: 14px;
+}
+.footer_list2 {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  padding: 7px 2px;
+  font-size: 14px;
+}
+
+.footer_list:hover {
+  background-color: #f2f2f2;
+}
+.footer_list2:hover {
+  background-color: #f2f2f2;
+}
+
+.small_text {
+  margin-left: 0.5rem;
+}
+
+#Right_section {
+  /* border-top: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+#Right_section_part1 {
+}
+#Right_section_part2 {
+}
+#Right_section_part3 {
+}
+
+.Right_section_Parts {
+  border-top: 1px solid black;
+}
+
+/* ----------footerSection3------------- */
+#Section3_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 95vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+#LastSection_part1_heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+#LastSection_part1_text {
+  font-size: 12px;
+}
+
+#LastSection_part2 {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+#LastSection_part2_text {
+  font-size: 16px;
+  margin-block: 1rem;
+}

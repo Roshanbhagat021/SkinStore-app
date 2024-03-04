@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --mainColor: white;
+}
+
+#Nav_container {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 99;
+  padding-top: 1rem;
+}
+
+#Logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 0.8;
+}
+
+#sub_Logo {
+  font-size: 14px;
+}
+
+.Login_Btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+  font-weight: 400 !important;
+  border-radius: 0px !important;
+}
+
+.Login_Btn:hover {
+  background-color: #28bdb7 !important;
+  border: 1px solid transparent;
+  color: black;
+}
+
+.Register_Btn {
+  width: 100%;
+  background-color: white !important;
+  border: 1px solid black;
+  font-weight: 400 !important;
+  border-radius: 0px !important;
+}
+
+.Register_Btn:hover {
+  background-color: #def5f4 !important;
+}
+
+/* -------------LOGOUT-------------- */
+#Logout_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logout_text:hover {
+  text-decoration: underline;
+}
+
+#search_box {
+  border: 1px solid rgba(86, 86, 86, 0.6);
+  width: 35vw;
+  max-width: 450px;
+}
+
+#search_box:focus {
+  outline: none;
+}
+
+#Last_navbar_section {
+  display: flex;
+  gap: 20%;
+}
+
+#Account {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  gap: 10px;
+  position: relative;
+  padding: 8px;
+  z-index: 20;
+}
+
+#Account_popup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: fit-content;
+  background-color: #eeeeee;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#Account:hover #Account_popup {
+  pointer-events: all;
+  opacity: 1;
+  top: 80%;
+  transition: all 0.3s ease;
+}
+
+#Account:hover {
+  background-color: #eeeeee;
+}
+
+.Account_popup_text {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+}
+
+.Account_popup_text:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+#Cart {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 16px;
+  gap: 10px;
+  position: relative;
+  padding: 8px;
+}
+
+#Cart_popup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 80px;
+  background-color: white;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#Cart_popup p {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#Cart:hover #Cart_popup {
+  opacity: 1;
+  top: 80%;
+  transition: all 0.3s ease;
+  pointer-events: all;
+}
+
+#Cart:hover {
+  background-color: #eeeeee;
+}
+
+.Cart_value {
+  position: absolute;
+  top: -2px;
+  left: 15px;
+}
+
+/* NavLinks */
+
+.navLinks {
+  width: 100vw;
+  max-width: 1400px;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 4vw;
+  font-size: 1rem;
+}
+
+.navLinks > div {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  /* margin-inline: 10px; */
+}
+
+.navLinks > div:hover {
+  color: #ffff;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Brands */
+
+.Brands {
+  position: relative;
+  /* margin-left: 0px; */
+}
+
+.Brands_popup {
+  position: absolute;
+  left: 0;
+  top: -100%;
+  width: 80vw;
+  height: 80px;
+  background-color: var(--mainColor);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Brands:hover .Brands_popup {
+  opacity: 1;
+  top: 100%;
+  transition: all 0.3s ease;
+  z-index: -1;
+  pointer-events: all;
+}
+
+/* Skin care */
+
+.SkinCare {
+  position: relative;
+  margin-left: 0px;
+}
+
+.SkinCare_popup {
+  position: absolute;
+  left: -80%;
+  top: -100%;
+  width: 80vw;
+  height: 75vh;
+  background-color: var(--mainColor);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.SkinCare:hover .SkinCare_popup {
+  opacity: 1;
+  top: 100%;
+  transition: all 0.3s ease;
+  z-index: -1;
+  pointer-events: all;
+}
+
+/* New */
+
+.New {
+  position: relative;
+  margin-left: 0px;
+}
+
+.New_popup {
+  position: absolute;
+  left: -300%;
+  top: -100%;
+  width: 25vw;
+  height: 45vh;
+  background-color: var(--mainColor);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.New:hover .New_popup {
+  opacity: 1;
+  top: 100%;
+  transition: all 0.3s ease;
+  z-index: -1;
+  pointer-events: all;
+}
+
+/* MakeUp */
+
+.Makeup {
+  position: relative;
+  margin-left: 0px;
+}
+
+.Makeup_popup {
+  position: absolute;
+  left: -265%;
+  top: -100%;
+  width: 53vw;
+  height: 45vh;
+  background-color: var(--mainColor);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Makeup:hover .Makeup_popup {
+  opacity: 1;
+  top: 100%;
+  transition: all 0.3s ease;
+  z-index: -1;
+  pointer-events: all;
+}
+
+/* Little banner */
+#Little_banner {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  max-width: 1400px;
+  font-size: 1.4vw;
+  margin: 1vw auto;
+  text-align: center;
+  padding: 0.3vw 0;
+  font-weight: bold;
+}
+
+#Little_banner:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Corousel */

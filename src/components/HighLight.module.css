@@ -1,0 +1,28 @@
+#Highlights_Heading {
+  font-size: 2.5rem;
+  margin: 3rem auto;
+  width: 100vw;
+  max-width: 1400px;
+  text-align: center;
+}
+
+#Highlights_Container {
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: max;
+}
+
+#Highlights {
+  width: 196px;
+  height: 196px;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+#Highlights:hover {
+  opacity: 1;
+  cursor: pointer;
+}
