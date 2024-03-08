@@ -41,19 +41,19 @@ This a clone website of a US based Cosmetic Product Selling Website built with t
 ![Home_Page](./public/Readme/Home-page.jpg)
 
 ## HIGHLIGHTED PRODUCTS
-![Home_Page](./public/Readme/Special_Products.jpg)
+![Highlighted_Page](./public/Readme/Special_Products.jpg)
 
 ## LOGIN PAGE
-![Home_Page](./public/Readme/Login_Page.jpg)
+![Login_Page](./public/Readme/Login_Page.jpg)
 
 ## REGISTER PAGE
-![Home_Page](./public/Readme/Register_Page.jpg)
+![Register_Page](./public/Readme/Register_Page.jpg)
 
 ## BEST SELLING PRODUCTS PAGE
-![Home_Page](./public/Readme/All_Products.jpg)
+![Best selling products page](./public/Readme/All_Products.jpg)
 
 ## FOOTER
-![Home_Page](./public/Readme/Footer.jpg)
+![Footer](./public/Readme/Footer.jpg)
 
 
 # Link For the Website: **[https://skinstore-page.netlify.app/](https://skinstore-page.netlify.app/)**
